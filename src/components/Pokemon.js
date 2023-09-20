@@ -3,6 +3,11 @@ import React from "react";
 const Pokemon = (props) => {
     
     const {pokemon} = props;
+
+    if (!pokemon) {
+        return <div>Não foi encontrado nenhum pokémon com esse nome</div>;
+    }
+
     return (
     <div className="pokemon-card">
         <div className="pokemon-image-container">
@@ -16,7 +21,7 @@ const Pokemon = (props) => {
             <div className="pokemon-type">
                 {pokemon.types.map((type, index) => {
                     return (
-                        <div key={index} className="pokemon-type-text">{type.type.name}</div>
+                        <div key={index} className={`pokemon-${type.type.name}-text`}>{type.type.name}</div>
                     )
                 })}
             </div>

@@ -2,6 +2,10 @@
   margin: 0px;
 }
 
+body {
+  background-color: lightgray;
+}
+
 nav {
   height: 100px;
   display: flex;
@@ -60,7 +64,8 @@ nav {
 .pokemon-card {
   display: flex;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 3px;
+  border-radius: 5px;
+  background-color: white;
 }
 
 .pokemon-image {
@@ -96,9 +101,130 @@ nav {
   display: flex;
 }
 
-.pokemon-type-text {
+.pokemon-normal-text {
   margin-right: 10px;
   text-transform: capitalize;
+  color: cornflowerblue;
+  font-weight: bold;
+}
+
+.pokemon-fire-text {
+  margin-right: 10px;
+  text-transform: capitalize;
+  color: orangered;
+  font-weight: bold;
+}
+
+.pokemon-water-text {
+  margin-right: 10px;
+  text-transform: capitalize;
+  color: blue;
+  font-weight: bold;
+}
+
+.pokemon-grass-text {
+  margin-right: 10px;
+  text-transform: capitalize;
+  color: green;
+  font-weight: bold;
+}
+
+.pokemon-flying-text {
+  margin-right: 10px;
+  text-transform: capitalize;
+  color: lightgray;
+  font-weight: bold;
+}
+
+.pokemon-poison-text {
+  margin-right: 10px;
+  text-transform: capitalize;
+  color: purple;
+  font-weight: bold;
+}
+
+.pokemon-electric-text {
+  margin-right: 10px;
+  text-transform: capitalize;
+  color: yellow;
+  font-weight: bold;
+}
+
+.pokemon-ground-text {
+  margin-right: 10px;
+  text-transform: capitalize;
+  color: brown;
+  font-weight: bold;
+}
+
+.pokemon-rock-text {
+  margin-right: 10px;
+  text-transform: capitalize;
+  color: gray;
+  font-weight: bold;
+}
+
+.pokemon-psychic-text {
+  margin-right: 10px;
+  text-transform: capitalize;
+  color: pink;
+  font-weight: bold;
+}
+
+.pokemon-ice-text {
+  margin-right: 10px;
+  text-transform: capitalize;
+  color: lightblue;
+  font-weight: bold;
+}
+
+.pokemon-bug-text {
+  margin-right: 10px;
+  text-transform: capitalize;
+  color: lightgreen;
+  font-weight: bold;
+}
+
+.pokemon-ghost-text {
+  margin-right: 10px;
+  text-transform: capitalize;
+  color: magenta;
+  font-weight: bold;
+}
+
+.pokemon-steel-text {
+  margin-right: 10px;
+  text-transform: capitalize;
+  color: darkgrey;
+  font-weight: bold;
+}
+
+.pokemon-dragon-text {
+  margin-right: 10px;
+  text-transform: capitalize;
+  color: orange;
+  font-weight: bold;
+}
+
+.pokemon-dark-text {
+  margin-right: 10px;
+  text-transform: capitalize;
+  color: black;
+  font-weight: bold;
+}
+
+.pokemon-fairy-text {
+  margin-right: 10px;
+  text-transform: capitalize;
+  color: antiquewhite;
+  font-weight: bold;
+}
+
+.pokemon-fighting-text {
+  margin-right: 10px;
+  text-transform: capitalize;
+  color: red;
+  font-weight: bold;
 }
 
 .App {

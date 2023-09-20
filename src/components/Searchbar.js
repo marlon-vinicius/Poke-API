@@ -1,12 +1,12 @@
 import React, {useState} from "react";
 
 const Searchbar = (props) => {
-    const [search, setSearch] = useState("")
+    const [search, setSearch] = useState(null)
     const {onSearch} = props
     const onChangeHandler = (e) => {
         setSearch(e.target.value)
         if(e.target.value.length === 0) {
-            onSearch(undefined)
+            onSearch(null)
         }
     }
 
