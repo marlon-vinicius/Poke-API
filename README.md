@@ -36,6 +36,9 @@ npm install
 npm start
 ```
 
+## Deployment
+[poke-api-rouge.vercel.app](https://poke-api-rouge.vercel.app/)
+
 ## Como utilizar a aplicação
 
 1. Quando a aplicação é carregada no navegador, você verá um campo para pesquisa.
